@@ -4,7 +4,7 @@
 
 This project is a Power BI analytics report built to analyze credit card transaction activity and customer characteristics.
 
-The report combines transaction-level and customer-level data to provide insights into revenue, transaction activity, interest earned, card categories, expenditure types, customer demographics, and satisfaction.
+The report combines transaction-level and customer-level data to provide insights into revenue, transaction activity, interest earned, card categories, expenditure types, customer demographics, and customer satisfaction.
 
 The Power BI report contains two main sections:
 
@@ -28,11 +28,11 @@ The objective of this project is to analyze credit card transaction patterns and
 
 ## Dataset
 
-The project uses the **Credit Card Customers Dataset**, consisting of two CSV files:
+The project uses the **Credit Card Customers Dataset**, consisting of two CSV files.
 
 ### 1. `credit_card_db.csv`
 
-Contains credit card transaction and account-level information, including fields related to:
+Contains credit card transaction and account-level information, including:
 
 * Card category
 * Credit limit
@@ -68,6 +68,16 @@ The two datasets are related using the `Client_Num` field.
 
 The raw dataset was obtained from a public online/Kaggle source, while the Power BI report and analysis were created as part of this project.
 
+## Dashboard Preview
+
+### Credit Card Transaction Report
+
+![Credit Card Transaction Report](images/transaction-report.jpeg)
+
+### Credit Card Customer Report
+
+![Credit Card Customer Report](images/customer-report.jpeg)
+
 ## Power BI Report
 
 ### Credit Card Transaction Report
@@ -101,7 +111,7 @@ The transaction report focuses on credit card performance and transaction behavi
 
 ---
 
-## Credit Card Customer Report
+### Credit Card Customer Report
 
 The customer report focuses on customer demographics and their relationship with credit card performance.
 
@@ -166,7 +176,7 @@ The report provides analysis across several dimensions:
 ## Tools & Technologies
 
 * **Microsoft Power BI**
-* **Power Query / Power BI Data Model**
+* **Power BI Data Model**
 * **CSV**
 * **Data Visualization**
 * **Data Analysis**
@@ -177,6 +187,9 @@ The report provides analysis across several dimensions:
 Credit-Card-Analytics-PowerBI/
 │
 ├── Credit Card Customer & Transaction Analytics.pbix
+├── images/
+│   ├── transaction-report.jpeg
+│   └── customer-report.jpeg
 └── README.md
 ```
 
@@ -196,7 +209,7 @@ It covers:
 
 * Customer and transaction data analysis
 * Data modeling using a common customer identifier
-* KPI development using Power BI aggregations
+* KPI analysis using Power BI aggregations
 * Interactive data visualization
 * Customer segmentation
 * Revenue and transaction analysis
